@@ -1,0 +1,6 @@
+1.将my 文件夹，移动至 D盘根目录下
+
+2.在eclipse 引入的tomcat 的Host 中加入
+
+  <Context crossContext="true" docBase="D:\my\upload\" path="/upload" reloadable="true"/>
+      
